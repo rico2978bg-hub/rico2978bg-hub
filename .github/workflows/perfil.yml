@@ -1,5 +1,5 @@
-# Atualiza as imagens do perfil (cobrinha dos commits e cartão de estatísticas)
-# todo dia e a cada mudança. As imagens ficam na branch "output".
+# Atualiza o cartão de estatísticas do perfil todo dia e a cada mudança.
+# A imagem fica na branch "output".
 name: Atualizar perfil
 
 on:
@@ -22,19 +22,11 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Cobrinha dos commits
-        # Fixado no commit exato da v3.5.0 para ninguém trocar o código por trás da versão.
-        uses: Platane/snk/svg-only@d8f6715049803e982ee5ff501b6b9b7d5deeb09b
-        with:
-          github_user_name: ${{ github.repository_owner }}
-          outputs: |
-            saida/cobrinha.svg?palette=github&color_snake=#1e9e57&color_dots=#ebedf0,#b7ebcb,#6fd39a,#2fb36d,#13804a
-            saida/cobrinha-escura.svg?palette=github-dark&color_snake=#4cc38a
-
       - name: Cartão de estatísticas
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
+          mkdir -p saida
           gh api graphql -F login='${{ github.repository_owner }}' -f query="$(cat scripts/consulta.graphql)" > dados.json
           python3 scripts/cartao.py dados.json saida/estatisticas.svg
 

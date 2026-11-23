@@ -56,15 +56,6 @@
   <img src="https://raw.githubusercontent.com/rico2978bg-hub/rico2978bg-hub/output/estatisticas.svg" width="100%" alt="Estatísticas: dias seguidos, maior sequência, contribuições, projetos e estrelas">
 </div>
 
-## 🐍 A cobrinha dos meus commits
-
-<div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/rico2978bg-hub/rico2978bg-hub/output/cobrinha-escura.svg">
-    <img src="https://raw.githubusercontent.com/rico2978bg-hub/rico2978bg-hub/output/cobrinha.svg" alt="Cobrinha comendo os quadradinhos de contribuição">
-  </picture>
-</div>
-
 ## 💡 Como eu gosto de fazer
 
 - **Sem instalar nada.** Os apps abrem no celular ou no computador e podem ser adicionados à tela inicial.
@@ -75,6 +66,6 @@
 
 ---
 
-<sub>✨ As estatísticas e a cobrinha se atualizam sozinhas todo dia.</sub>
+<sub>✨ As estatísticas se atualizam sozinhas todo dia.</sub>
 
 </div>
