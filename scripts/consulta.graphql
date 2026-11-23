@@ -1,0 +1,14 @@
+query($login: String!) {
+  user(login: $login) {
+    repositories(ownerAffiliations: OWNER, privacy: PUBLIC, first: 100) {
+      totalCount
+      nodes { stargazerCount }
+    }
+    contributionsCollection {
+      contributionCalendar {
+        totalContributions
+        weeks { contributionDays { date contributionCount } }
+      }
+    }
+  }
+}
