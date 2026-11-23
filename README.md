@@ -44,6 +44,31 @@
   </tr>
 </table>
 
+## 🎮 Jogos
+
+<table>
+  <tr>
+    <td width="50%" align="center" valign="top">
+      <a href="https://rico2978bg-hub.github.io/minhoca-faminta/">
+        <img src="https://raw.githubusercontent.com/rico2978bg-hub/minhoca-faminta/main/imagens/jogo.jpg" width="220" alt="Minhoca Faminta">
+      </a>
+      <h3>🐛 Minhoca Faminta</h3>
+      <p>Coma as frutas, cresça e não bata em nada. A melancia vale 5 pontos, mas some rápido!</p>
+      <a href="https://rico2978bg-hub.github.io/minhoca-faminta/"><img src="https://img.shields.io/badge/Jogar_agora-ff5f8f?style=flat-square" alt="Jogar agora"></a>
+      <a href="https://github.com/rico2978bg-hub/minhoca-faminta"><img src="https://img.shields.io/badge/Ver_o_código-24292f?style=flat-square&logo=github" alt="Ver o código"></a>
+    </td>
+    <td width="50%" align="center" valign="top">
+      <a href="https://rico2978bg-hub.github.io/empilha/">
+        <img src="https://raw.githubusercontent.com/rico2978bg-hub/empilha/main/imagens/jogo.jpg" width="220" alt="Empilha!">
+      </a>
+      <h3>🍬 Empilha!</h3>
+      <p>Encaixe os doces que caem e complete linhas para fazê-las sumir. Quanto mais linhas, mais rápido fica.</p>
+      <a href="https://rico2978bg-hub.github.io/empilha/"><img src="https://img.shields.io/badge/Jogar_agora-7c5cf5?style=flat-square" alt="Jogar agora"></a>
+      <a href="https://github.com/rico2978bg-hub/empilha"><img src="https://img.shields.io/badge/Ver_o_código-24292f?style=flat-square&logo=github" alt="Ver o código"></a>
+    </td>
+  </tr>
+</table>
+
 ## 🛠️ No que estou trabalhando
 
 - 🏠 **Coleção da família:** novos apps no mesmo estilo, como divisão de contas da casa, metas de economia com cofrinho e tarefas da família.
@@ -58,7 +83,7 @@
 
 ## 💡 Como eu gosto de fazer
 
-- **Sem instalar nada.** Os apps abrem no celular ou no computador e podem ser adicionados à tela inicial.
+- **Sem instalar nada.** Os apps e jogos abrem no celular ou no computador e podem ser adicionados à tela inicial.
 - **Seus dados ficam com você.** Tudo é salvo no próprio navegador, sem cadastro e sem servidor.
 - **Grátis de verdade.** Nada de assinatura nem API paga.
 
