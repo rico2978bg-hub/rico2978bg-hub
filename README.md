@@ -5,7 +5,7 @@
 # Olá! Aqui é Ricardo
 
 <a href="https://github.com/rico2978bg-hub">
-  <img src="https://readme-typing-svg.demolab.com?font=Poppins&weight=700&size=24&duration=3000&pause=900&color=1E9E57&center=true&vCenter=true&width=620&lines=Crio+apps+para+o+dia+a+dia+da+fam%C3%ADlia+%F0%9F%9B%92;Visual+colorido+e+f%C3%A1cil+de+usar+%F0%9F%8E%A8;Gr%C3%A1tis+e+sem+instalar+nada+%F0%9F%9A%80;Sempre+aprendendo+algo+novo+%E2%9C%A8" alt="Crio apps para o dia a dia da família">
+  <img src="https://readme-typing-svg.demolab.com?font=Poppins&weight=700&size=24&duration=3000&pause=900&color=1E9E57&center=true&vCenter=true&width=620&lines=Crio+apps+para+o+dia+a+dia+da+fam%C3%ADlia+%F0%9F%9B%92;Estudo+IA+aplicada+a+pagamentos+%F0%9F%A7%A0;Visual+colorido+e+f%C3%A1cil+de+usar+%F0%9F%8E%A8;Gr%C3%A1tis+e+sem+instalar+nada+%F0%9F%9A%80;Sempre+aprendendo+algo+novo+%E2%9C%A8" alt="Crio apps para o dia a dia da família">
 </a>
 
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
@@ -18,6 +18,25 @@
 </div>
 
 ---
+
+## 🧠 Destaque: Inteligência Artificial
+
+<table>
+  <tr>
+    <td align="center">
+      <a href="https://rico2978bg-hub.github.io/radar-fraude/">
+        <img src="https://raw.githubusercontent.com/rico2978bg-hub/radar-fraude/main/imagens/inicio.jpg" width="640" alt="Radar de Fraude">
+      </a>
+      <h3>🛡️ Radar de Fraude</h3>
+      <p>Uma IA que aprende a detectar pagamentos suspeitos, <b>treinada direto no navegador</b>.<br>
+      Regressão logística escrita do zero, métricas de negócio (fraude barrada x cliente incomodado), curva ROC<br>
+      e um simulador que <b>explica o porquê</b> de cada decisão. AUC 0,92 em compras que o modelo nunca viu.</p>
+      <a href="https://rico2978bg-hub.github.io/radar-fraude/"><img src="https://img.shields.io/badge/Abrir_o_projeto-6d5cf5?style=flat-square" alt="Abrir o projeto"></a>
+      <a href="https://github.com/rico2978bg-hub/radar-fraude"><img src="https://img.shields.io/badge/Ver_o_código-24292f?style=flat-square&logo=github" alt="Ver o código"></a>
+      <a href="https://github.com/rico2978bg-hub/radar-fraude/actions/workflows/testes.yml"><img src="https://github.com/rico2978bg-hub/radar-fraude/actions/workflows/testes.yml/badge.svg" alt="Testes"></a>
+    </td>
+  </tr>
+</table>
 
 ## 🚀 Projetos
 
