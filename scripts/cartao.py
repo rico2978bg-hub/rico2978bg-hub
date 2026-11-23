@@ -47,7 +47,7 @@ def svg(stats):
     for i, (emoji, valor, rotulo, cor) in enumerate(blocos):
         x = margem + i * (w + 12)
         partes.append(f"""
-    <g class="bloco" style="animation-delay:{i * 0.12:.2f}s">
+    <g>
       <rect x="{x:.1f}" y="62" width="{w:.1f}" height="106" rx="18" fill="#ffffff" fill-opacity=".14"/>
       <rect x="{x + 14:.1f}" y="76" width="34" height="34" rx="11" fill="{cor}"/>
       <text x="{x + 31:.1f}" y="99" font-size="17" text-anchor="middle">{emoji}</text>
@@ -68,8 +68,6 @@ def svg(stats):
     .sub {{ font-size: 12px; fill-opacity: .8; }}
     .valor {{ font-size: 24px; font-weight: 800; }}
     .rotulo {{ font-size: 11px; fill-opacity: .85; }}
-    .bloco {{ opacity: 0; animation: entra .5s ease forwards; }}
-    @keyframes entra {{ from {{ opacity: 0; transform: translateY(8px); }} to {{ opacity: 1; transform: none; }} }}
   </style>
   <rect width="{largura}" height="{altura}" rx="24" fill="url(#fundo)"/>
   <circle cx="{largura - 40}" cy="10" r="90" fill="#ffffff" fill-opacity=".07"/>
