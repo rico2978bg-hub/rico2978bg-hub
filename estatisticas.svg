@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="840" height="190" viewBox="0 0 840 190" role="img" aria-label="Estatísticas do GitHub">
+  <defs>
+    <linearGradient id="fundo" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#22b877"/>
+      <stop offset=".55" stop-color="#13804a"/>
+      <stop offset="1" stop-color="#0b5e35"/>
+    </linearGradient>
+  </defs>
+  <style>
+    text { font-family: 'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif; fill: #ffffff; }
+    .titulo { font-size: 19px; font-weight: 700; }
+    .sub { font-size: 12px; fill-opacity: .8; }
+    .valor { font-size: 24px; font-weight: 800; }
+    .rotulo { font-size: 11px; fill-opacity: .85; }
+  </style>
+  <rect width="840" height="190" rx="24" fill="url(#fundo)"/>
+  <circle cx="800" cy="10" r="90" fill="#ffffff" fill-opacity=".07"/>
+  <text x="24" y="40" class="titulo">Meu GitHub em números</text>
+  <text x="816" y="40" class="sub" text-anchor="end">atualizado em 27/11/2026</text>
+    <g>
+      <rect x="24.0" y="62" width="148.8" height="106" rx="18" fill="#ffffff" fill-opacity=".14"/>
+      <rect x="38.0" y="76" width="34" height="34" rx="11" fill="#ff7a59"/>
+      <text x="55.0" y="99" font-size="17" text-anchor="middle">🔥</text>
+      <text x="38.0" y="140" class="valor">0</text>
+      <text x="38.0" y="158" class="rotulo">dias seguidos</text>
+    </g>
+    <g>
+      <rect x="184.8" y="62" width="148.8" height="106" rx="18" fill="#ffffff" fill-opacity=".14"/>
+      <rect x="198.8" y="76" width="34" height="34" rx="11" fill="#f5b301"/>
+      <text x="215.8" y="99" font-size="17" text-anchor="middle">🏆</text>
+      <text x="198.8" y="140" class="valor">3</text>
+      <text x="198.8" y="158" class="rotulo">maior sequência</text>
+    </g>
+    <g>
+      <rect x="345.6" y="62" width="148.8" height="106" rx="18" fill="#ffffff" fill-opacity=".14"/>
+      <rect x="359.6" y="76" width="34" height="34" rx="11" fill="#2fbf71"/>
+      <text x="376.6" y="99" font-size="17" text-anchor="middle">✅</text>
+      <text x="359.6" y="140" class="valor">49</text>
+      <text x="359.6" y="158" class="rotulo">contribuições no ano</text>
+    </g>
+    <g>
+      <rect x="506.4" y="62" width="148.8" height="106" rx="18" fill="#ffffff" fill-opacity=".14"/>
+      <rect x="520.4" y="76" width="34" height="34" rx="11" fill="#5b8def"/>
+      <text x="537.4" y="99" font-size="17" text-anchor="middle">📦</text>
+      <text x="520.4" y="140" class="valor">9</text>
+      <text x="520.4" y="158" class="rotulo">projetos públicos</text>
+    </g>
+    <g>
+      <rect x="667.2" y="62" width="148.8" height="106" rx="18" fill="#ffffff" fill-opacity=".14"/>
+      <rect x="681.2" y="76" width="34" height="34" rx="11" fill="#a66bff"/>
+      <text x="698.2" y="99" font-size="17" text-anchor="middle">⭐</text>
+      <text x="681.2" y="140" class="valor">6</text>
+      <text x="681.2" y="158" class="rotulo">estrelas</text>
+    </g>
+</svg>
